@@ -22,4 +22,21 @@ let average = total / scores.length;
 console.log("Updated Scores:", scores);
 console.log("Average Scores:", average);
 
-// Student Scores 
+// Student Scores
+
+// Task 3- Working with Objects 
+
+
+// Task 4- Array of Objects 
+
+let customers = [
+    { name: "Samara", email: "samara@example.com", purchaseAmount: 60},
+    {name: "Jenique", email: "jenique@example.com", purchaseAmount: 200},
+    {name: "Nicholas", email: "nicholas@example.com", purchaseAmount: 400}
+];
+// New Customer added
+customers.push({name: "Adija", email: "adija@example.com", purchasAmount: 30 });
+
+console.log(customers);
+
+// Customer Database
