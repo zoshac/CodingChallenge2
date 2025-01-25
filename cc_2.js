@@ -26,11 +26,26 @@ console.log("Average Scores:", average);
 
 // Task 3- Working with Objects 
 
+let employee = {
+    name: "Jada Nash",
+    age: 21,
+    department: "Management",
+    isActive: true
+};
+
+// Department Update
+employee.department = "Finance";
+// New Department Position
+employee.position = "Salaes"
+
+console.log(employee);
+
+// Employee Records 
 
 // Task 4- Array of Objects 
 
 let customers = [
-    { name: "Samara", email: "samara@example.com", purchaseAmount: 60},
+    {name: "Samara", email: "samara@example.com", purchaseAmount: 60},
     {name: "Jenique", email: "jenique@example.com", purchaseAmount: 200},
     {name: "Nicholas", email: "nicholas@example.com", purchaseAmount: 400}
 ];
@@ -40,3 +55,5 @@ customers.push({name: "Adija", email: "adija@example.com", purchasAmount: 30 });
 console.log(customers);
 
 // Customer Database
+
+// Task 5- Object Methods
