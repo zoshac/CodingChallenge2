@@ -57,3 +57,17 @@ console.log(customers);
 // Customer Database
 
 // Task 5- Object Methods
+let order = {
+    orderID: 37386,
+    customerName: "Kayla Carter",
+    amount: 400,
+
+    calcuteTax: function() {
+        return this.amount * 0.10;
+    }
+};
+
+console.log("Order Details:", order);
+console.log("Tax Amount:", order.calcuteTax());
+
+// Order Processing
